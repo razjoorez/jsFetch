@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+li {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+  
+}
