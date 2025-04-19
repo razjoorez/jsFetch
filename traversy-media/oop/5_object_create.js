@@ -22,3 +22,15 @@ book1.year = '2013';
 
 console.log(book1);
 
+
+const protoObj = {
+    getResult: function() {
+        return 'Hello ${this.title}';
+    }
+}
+
+const bookP = Object.create(protoObj);
+bookP.title = 'my book';
+
+
+console.log(bookP)
