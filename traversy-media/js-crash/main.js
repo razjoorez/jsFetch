@@ -286,7 +286,11 @@ console.log(person1);
 
 console.log(person1.getBirthYear());
 
-console.log(person1.getFullName())
+console.log(person1.getFullName());
+
+
+//  checking git
+
 
 
 
