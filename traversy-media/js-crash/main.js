@@ -312,6 +312,31 @@ console.log('proto :', person2.getFulName());
 
 
 
+class PersonClass {
+    constructor(firstName, lastName, dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = dob;
+    }
+
+    getBirthYear() {
+        return this.dob.getFullYear();
+    }
+
+    getFullName() {
+        return `${this.firstName} ${this.lastName}`
+    }
+
+}
+
+
+const personClass = new PersonClass('john', 'Doe', '4-3-1980');
+
+
+console.log(personClass);
+
+
+
 
 
 
