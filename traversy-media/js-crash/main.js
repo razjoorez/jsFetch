@@ -289,7 +289,26 @@ console.log(person1.getBirthYear());
 console.log(person1.getFullName());
 
  
-//  checking git  linux
+
+
+//Prototypes
+
+
+Person.prototype.getBithyear = function() {
+    return this.dob.getFullYear();
+}
+
+Person.prototype.getFulName = function() {
+    return `${this.firstName} ${this.lastName}`
+};
+
+const person2 = new Person('Reza', 'Razjoo', '7-6-77');
+
+
+console.log('proto :', person2.getFulName());
+
+
+//OOP with classes
 
 
 
