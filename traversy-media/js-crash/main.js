@@ -288,8 +288,9 @@ console.log(person1.getBirthYear());
 
 console.log(person1.getFullName());
 
+ 
+//  checking git  linux
 
-//  checking git
 
 
 
